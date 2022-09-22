@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pacientes</title>
+</head>
+<body>
+
+    <div id="registro">
+        <h1> Registrar Paciente </h1>
+
+        
+
+        <label for="primer-nombre">Primer Nombre<span>*</span></label>
+        <input type="text" id="primer-nombre">
+
+        <label for="segundo-nombre">Segundo Nombre</label>
+        <input type="text" id="segundo-nombre">
+
+        <label for="primer-apellido">Primer apellido<span>*</span></label>
+        <input type="text" id="primer-apellido">
+
+        <label for="segundo-apellido">Segundo apellido</label>
+        <input type="text" id="segundo-apellido">
+
+
+        <label for="tipo-documento">Tipo de documento<span>*</span></label>
+        <select name="" id="tipo-documento">
+            <option value="">Seleccione su tipo de documento</option>
+            <option value="cc">Cédula de ciudadania</option>
+            <option value="T.I">Tarjeta de identidad</option>
+            <option value="pasaporte">Pasaporte extanjero</option>
+        </select>
+
+        
+        <label for="numero-documento">Numero de documento<span>*</span></label>
+       <input type="text" id="numero-documento">
+
+       <label for="numero-celular">Numero de celular<span>*</span></label>
+       <input type="text" id="numero-celular">
+
+
+
+               
+        <label for="factores">Factores<span>*</span></label>
+        <select name="" id="factores">
+            <option value="">Seleccione un factor</option>
+            <option value="Ansiedad">Ansiedad</option>
+            <option value="Depresion">Depresion</option>
+        </select>
+
+        <button id="registrar"> Registrar</button>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
