@@ -1,6 +1,7 @@
 
 
 document.getElementById('registrar').addEventListener("click", () => {
+	
     const nombre = document.getElementById("primer-nombre").value
     const segundoNombre = document.getElementById("segundo-nombre").value
     const apellido = document.getElementById("primer-apellido").value
@@ -9,18 +10,16 @@ document.getElementById('registrar').addEventListener("click", () => {
     const numeroDocumento = document.getElementById('numero-documento').value
     const numeroCelular = document.getElementById('numero-celular').value
     const factores = document.getElementById('factores').value
-    let factorId = ''
+    let factorId = 0
     const idPaciente = ''
     
 
-    if (factores === 'Depresion'){
-        factorId === 1
+    if (factores == 'Depresion'){
+        factorId = 1
     }
     else  {
-        factorId === 2
-    } 
-
-    
+        factorId = 2
+    }     
 
 
 console.log(factorId)
@@ -53,7 +52,7 @@ const datosPaciente = {
         }
         
         
-        fetch("https://localhost:7273/api/Conversacion/Registro", options)
+        fetch("https://tdsbotapi-v01.azurewebsites.net/api/Conversacion/Registro", options).then(resp =>{} )
            
  })
     
