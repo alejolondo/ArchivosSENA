@@ -52,7 +52,9 @@ const datosPaciente = {
         }
         
         
-        fetch("https://tdsbotapi-v01.azurewebsites.net/api/Conversacion/Registro", options).then(resp =>{} )
+        fetch("https://tdsbotapi-v01.azurewebsites.net/api/Conversacion/Registro", options)
+        .then(response => response.json())
+        .then(data => console.log(data))
            
  })
     
