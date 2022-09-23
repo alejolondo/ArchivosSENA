@@ -44,18 +44,16 @@ const datosPaciente = {
           }
           
           const options = {
-            method: "POST",
-            mode: "cors",
+            method: "POST",            
             body: JSON.stringify(datosPaciente),
             headers: {
-                "Content-Type": "application/json; charset=UTF-8", 'Access-Control-Allow-Origin':'*'
+                "Content-Type": "application/json",
+				"Accept": "application/json"
             }
         }
         
         
         fetch("https://tdsbotapi-v01.azurewebsites.net/api/Conversacion/Registro", options)
-        .then(response => response.json())
-        .then(data => console.log(data))
            
  })
     
