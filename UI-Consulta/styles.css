@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FF6B00;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-shadow: 1px 1px gray;
+}
+
+span{
+    color: red;
+}
+.consulta{
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+section{
+    display: flex;
+}
+.tuplaDiferente{
+    color: red;
+
+}
+
+#encabezado{
+    color: blue;
+}
+
+p{
+    margin: 2rem;
+}
+
+
+.datos-consulta{
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+
+}
