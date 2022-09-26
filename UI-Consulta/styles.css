@@ -30,7 +30,15 @@ section{
 
 }
 
-#encabezado{
+
+tr td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+
+.encabezado{
     color: blue;
 }
 
